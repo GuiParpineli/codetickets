@@ -1,15 +1,10 @@
 package com.quarkbyte.codetickets;
 
-import jakarta.persistence.*;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-@Entity
-@Table
 public class Importation {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String cpf;
     private String cliente;
